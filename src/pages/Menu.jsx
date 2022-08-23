@@ -1,9 +1,31 @@
-import React from 'react'
+import React from "react";
+import MenuList from "../helpers/MenuList";
+import MenuItem from "../components/MenuItem";
+import'../styles/Menu.css'
+
 
 const Menu = () => {
   return (
-    <div>Menu</div>
-  )
-}
+    <>
+      <div className="menu">
+        <h1 className="menuTitle">Our Menu</h1>
+        <div className="menuList">
+          {MenuList.map((am) => {
+            return (
 
-export default Menu
+                <MenuItem
+                 
+                  image={am.image}
+                  name={am.name}
+                  price={am.price}
+                />
+              
+            );
+          })}
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Menu;

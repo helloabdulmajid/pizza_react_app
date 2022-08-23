@@ -19,3 +19,13 @@
   .footer p {
     color: white;
   }
+
+  @media only screen and (max-width: 650px) 
+  {
+  .socialMedia svg {
+    color: white;
+    margin: 20px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+}

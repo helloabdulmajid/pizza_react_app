@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../assests/pizzaLogo.png";
+import Logo from "../assets/pizzaLogo.png";
 import  "../styles/Navbar.css";
 import { useState } from "react";
 import { UilBars } from '@iconscout/react-unicons'

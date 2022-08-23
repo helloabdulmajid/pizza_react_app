@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import BannerImage from '../assests/pizza.jpeg'
+import BannerImage from '../assets/pizza.jpeg'
 import'../styles/Home.css'
 
 
